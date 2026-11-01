@@ -5,7 +5,7 @@ header > a { flex-shrink: 0; }
 header nav { gap: 28px; font-size: 17px; }
 header nav a { white-space: nowrap; }
 header .contact-link { padding: 14px 23px; }
-@media (min-width: 1001px) and (max-width: 1100px) {
+@media (min-width: 1001px) and (max-width: 1250px) {
   header { padding-left: 4%; padding-right: 4%; gap: 18px; }
   header .logo { width: 245px; }
   header nav { gap: 16px; font-size: 16px; }
