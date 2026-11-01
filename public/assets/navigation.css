@@ -5,15 +5,16 @@ header > a { flex-shrink: 0; }
 header nav { gap: 28px; font-size: 17px; }
 header nav a { white-space: nowrap; }
 header .contact-link { padding: 14px 23px; }
-@media (min-width: 851px) and (max-width: 1100px) {
+@media (min-width: 1001px) and (max-width: 1100px) {
   header { padding-left: 4%; padding-right: 4%; gap: 18px; }
   header .logo { width: 245px; }
   header nav { gap: 16px; font-size: 16px; }
   header .contact-link { padding: 12px 16px; }
 }
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
   header { height: 95px; gap: 14px; }
   header .logo { width: clamp(185px, 58vw, 260px); }
-  header nav { top: 129px; gap: 22px; font-size: 18px; }
-  header .menu { font-size: 16px; white-space: nowrap; }
+  header nav { display: none; position: absolute; top: 129px; left: 0; right: 0; background: var(--paper); padding: 25px; z-index: 10; flex-direction: column; gap: 22px; font-size: 18px; }
+  header nav.open { display: flex; }
+  header .menu { display: block; border: 0; background: none; color: var(--ink); font-size: 16px; white-space: nowrap; }
 }
