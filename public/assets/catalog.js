@@ -67,6 +67,29 @@ function show(i) {
   document.getElementById('product-image').src = x.image;
   document.getElementById('product-image').alt = 'Deur model ' + x.model;
   document.getElementById('product-title').textContent = 'Model ' + x.model;
+  let offerInfo = document.getElementById('product-offer-info');
+  if (!offerInfo) {
+    offerInfo = document.createElement('div'); offerInfo.id = 'product-offer-info'; offerInfo.className = 'offer-information';
+    document.getElementById('product-title').after(offerInfo);
+  }
+  offerInfo.replaceChildren();
+  const hasOfferInfo = Boolean(x.offer && (x.price || x.description));
+  offerInfo.hidden = !hasOfferInfo;
+  if (hasOfferInfo) {
+    if (x.price) {
+      const price = document.createElement('p'); price.className = 'offer-price'; price.textContent = x.price;
+      if (x.vat) { const vat = document.createElement('small'); vat.textContent = x.vat; price.append(vat); }
+      offerInfo.append(price);
+    }
+    if (x.description) {
+      const description = document.createElement('div'); description.className = 'offer-description';
+      x.description.split('\n').filter(Boolean).forEach(line => { const p = document.createElement('p'); p.textContent = line; description.append(p); });
+      offerInfo.append(description);
+    }
+  }
+  const introduction = document.querySelector('.detail-text > p:not(.note)');
+  if (introduction) introduction.hidden = hasOfferInfo;
+
   document.getElementById('product-mail').href = '/offerte-aanvragen/?' + new URLSearchParams({ type: x.kind || kind, model: x.model, ...(x.offer ? { aanbieding: '1' } : {}) });
   document.getElementById('product-mail').textContent = 'Offerte aanvragen ↗';
   document.getElementById('position').textContent = (i + 1) + ' / ' + filtered.length;
