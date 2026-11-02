@@ -2320,6 +2320,297 @@
       ],
       "glazing": "met",
       "panels": null
+    },
+    "10135-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "zonder",
+      "panels": 3
+    },
+    "10940-02": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "zonder",
+      "panels": 3
+    },
+    "10957-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "zonder",
+      "panels": 3
+    },
+    "10900-02": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "zonder",
+      "panels": 3
+    },
+    "10902-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "zonder",
+      "panels": 3
+    },
+    "10234-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "zonder",
+      "panels": 2
+    },
+    "10870-02": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "zonder",
+      "panels": 2
+    },
+    "10871-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "zonder",
+      "panels": 2
+    },
+    "10905-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "zonder",
+      "panels": 4
+    },
+    "10960-02": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "zonder",
+      "panels": 4
+    },
+    "10961-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "zonder",
+      "panels": 4
+    },
+    "10985-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "zonder",
+      "panels": 1
+    },
+    "10231-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10232-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10233-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10880-02": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10888-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10890-02": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10901-02": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10903-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10906-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10950-02": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10951-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10955-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10958-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10965-08": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10970-02": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10971-02": {
+      "styles": [
+        "klassiek",
+        "jaren-30"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "10980-02": {
+      "styles": [
+        "modern"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "20050-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "20051-08": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "20070-01": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "20095-09": {
+      "styles": [
+        "klassiek",
+        "landelijk"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "40041-04": {
+      "styles": [
+        "modern"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "40500-01": {
+      "styles": [
+        "modern"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "40510-01": {
+      "styles": [
+        "modern"
+      ],
+      "glazing": "met",
+      "panels": null
+    },
+    "40520-01": {
+      "styles": [
+        "modern"
+      ],
+      "glazing": "met",
+      "panels": null
     }
   }
 }

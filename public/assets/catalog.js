@@ -122,7 +122,7 @@ document.querySelectorAll('[data-filter]').forEach(button => button.onclick = ()
 async function loadCatalog() {
   try {
     const urls = [kind === 'aanbiedingen' ? '/assets/aanbiedingen.json?v=offerinfo1' : '/assets/collectie.json'];
-    if (styleSelect) urls.push('/assets/catalog-filters.json');
+    if (styleSelect) urls.push('/assets/catalog-filters.json?v=offers1');
     const data = await Promise.all(urls.map(async url => { const response = await fetch(url); if (!response.ok) throw Error('Load failed'); return response.json(); }));
     items = kind === 'aanbiedingen' ? data[0] : data[0][kind];
     if (styleSelect) {
